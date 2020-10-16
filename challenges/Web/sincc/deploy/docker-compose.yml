@@ -1,0 +1,9 @@
+services:
+  ciscn:
+    build: .
+    image: ciscn
+    ports:
+      - "80:80"
+      - "22:22"
+    tty: true
+version: '2'

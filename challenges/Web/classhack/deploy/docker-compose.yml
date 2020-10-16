@@ -1,0 +1,6 @@
+services:
+    class_hack:
+        build: .
+        ports: ['80']
+        tty: true
+version: '3'

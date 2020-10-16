@@ -1,0 +1,16 @@
+services:
+  sqlattack:
+    build: .
+    image: sqlattack
+    ports: ['80']
+    tty: true
+version: '3'
+
+
+bin/mysql -uroot -p dVj)q0>9I&<j          x**wBTd4lKz7
+
+
+apt install numactl
+apt install libaio-dev
+
+sg3xmGurjU-i
