@@ -134,9 +134,9 @@ JNCTF-2019:
         - score: 300
         - flag:
           - random
-        - pushflag: ./pwn/jnctf_2020_pwn1/deploy/pushflag.sh
-        - env: ./pwn/jnctf_2020_pwn1/deploy/docker-compose.yml
-        - attachment: ./pwn/jnctf_2020_pwn1/attachment/jnctf_2020_pwn1.zip
+        - pushflag: ./Pwn/jnctf_2020_pwn1/deploy/pushflag.sh
+        - env: ./Pwn/jnctf_2020_pwn1/deploy/docker-compose.yml
+        - attachment: ./Pwn/jnctf_2020_pwn1/attachment/jnctf_2020_pwn1.zip
         - writeup-cn: NULL
         - writeup-en: NULL
         - description-cn: NULL
@@ -148,9 +148,9 @@ JNCTF-2019:
         - score: 500
         - flag:
           - random
-        - pushflag: ./pwn/jnctf_2020_pwn2/deploy/pushflag.sh
-        - env: ./pwn/jnctf_2020_pwn2/deploy/docker-compose.yml
-        - attachment: ./pwn/jnctf_2020_pwn2/attachment/jnctf_2020_pwn2.zip
+        - pushflag: ./Pwn/jnctf_2020_pwn2/deploy/pushflag.sh
+        - env: ./Pwn/jnctf_2020_pwn2/deploy/docker-compose.yml
+        - attachment: ./Pwn/jnctf_2020_pwn2/attachment/jnctf_2020_pwn2.zip
         - writeup-cn: NULL
         - writeup-en: NULL
         - description-cn: NULL
@@ -162,9 +162,9 @@ JNCTF-2019:
         - score: 500
         - flag:
           - random
-        - pushflag: ./pwn/jnctf_2020_pwn3/deploy/pushflag.sh
-        - env: ./pwn/jnctf_2020_pwn3/deploy/docker-compose.yml
-        - attachment: ./pwn/jnctf_2020_pwn3/attachment/jnctf_2020_pwn3.zip
+        - pushflag: ./Pwn/jnctf_2020_pwn3/deploy/pushflag.sh
+        - env: ./Pwn/jnctf_2020_pwn3/deploy/docker-compose.yml
+        - attachment: ./Pwn/jnctf_2020_pwn3/attachment/jnctf_2020_pwn3.zip
         - writeup-cn: NULL
         - writeup-en: NULL
         - description-cn: NULL
@@ -176,9 +176,9 @@ JNCTF-2019:
         - score: 500
         - flag:
           - random
-        - pushflag: ./pwn/jnctf_2020_pwn4/deploy/pushflag.sh
-        - env: ./pwn/jnctf_2020_pwn4/deploy/docker-compose.yml
-        - attachment: ./pwn/jnctf_2020_pwn4/attachment/jnctf_2020_pwn4.zip
+        - pushflag: ./Pwn/jnctf_2020_pwn4/deploy/pushflag.sh
+        - env: ./Pwn/jnctf_2020_pwn4/deploy/docker-compose.yml
+        - attachment: ./Pwn/jnctf_2020_pwn4/attachment/jnctf_2020_pwn4.zip
         - writeup-cn: NULL
         - writeup-en: NULL
         - description-cn: NULL
