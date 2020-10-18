@@ -1,0 +1,61 @@
+JNCTF-2020:
+    _meta_:
+      - max_score: 500
+      - name: "JNCTF-2020"
+    Pwn:
+      - jnctf_2020_pwn1:
+        - score: 300
+        - flag:
+          - random
+        - pushflag: ./pwn/jnctf_2020_pwn1/deploy/pushflag.sh
+        - env: ./pwn/jnctf_2020_pwn1/deploy/docker-compose.yml
+        - attachment: ./pwn/jnctf_2020_pwn1/attachment/jnctf_2020_pwn1.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "Just nc to have fun!"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - jnctf_2020_pwn2:
+        - score: 500
+        - flag:
+          - random
+        - pushflag: ./pwn/jnctf_2020_pwn2/deploy/pushflag.sh
+        - env: ./pwn/jnctf_2020_pwn2/deploy/docker-compose.yml
+        - attachment: ./pwn/jnctf_2020_pwn2/attachment/jnctf_2020_pwn2.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "stack migration 32bit"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - jnctf_2020_pwn3:
+        - score: 500
+        - flag:
+          - random
+        - pushflag: ./pwn/jnctf_2020_pwn3/deploy/pushflag.sh
+        - env: ./pwn/jnctf_2020_pwn3/deploy/docker-compose.yml
+        - attachment: ./pwn/jnctf_2020_pwn3/attachment/jnctf_2020_pwn3.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "fmt"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - jnctf_2020_pwn4:
+        - score: 500
+        - flag:
+          - random
+        - pushflag: ./pwn/jnctf_2020_pwn4/deploy/pushflag.sh
+        - env: ./pwn/jnctf_2020_pwn4/deploy/docker-compose.yml
+        - attachment: ./pwn/jnctf_2020_pwn4/attachment/jnctf_2020_pwn4.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "glibc2.23heap"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL

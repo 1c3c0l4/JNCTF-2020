@@ -129,3 +129,354 @@ JNCTF-2019:
         - origin: NULL
         - tag: NULL
         - hint: NULL
+    Pwn:
+      - jnctf_2020_pwn1:
+        - score: 300
+        - flag:
+          - random
+        - pushflag: ./pwn/jnctf_2020_pwn1/deploy/pushflag.sh
+        - env: ./pwn/jnctf_2020_pwn1/deploy/docker-compose.yml
+        - attachment: ./pwn/jnctf_2020_pwn1/attachment/jnctf_2020_pwn1.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "Just nc to have fun!"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - jnctf_2020_pwn2:
+        - score: 500
+        - flag:
+          - random
+        - pushflag: ./pwn/jnctf_2020_pwn2/deploy/pushflag.sh
+        - env: ./pwn/jnctf_2020_pwn2/deploy/docker-compose.yml
+        - attachment: ./pwn/jnctf_2020_pwn2/attachment/jnctf_2020_pwn2.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "stack migration 32bit"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - jnctf_2020_pwn3:
+        - score: 500
+        - flag:
+          - random
+        - pushflag: ./pwn/jnctf_2020_pwn3/deploy/pushflag.sh
+        - env: ./pwn/jnctf_2020_pwn3/deploy/docker-compose.yml
+        - attachment: ./pwn/jnctf_2020_pwn3/attachment/jnctf_2020_pwn3.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "fmt"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - jnctf_2020_pwn4:
+        - score: 500
+        - flag:
+          - random
+        - pushflag: ./pwn/jnctf_2020_pwn4/deploy/pushflag.sh
+        - env: ./pwn/jnctf_2020_pwn4/deploy/docker-compose.yml
+        - attachment: ./pwn/jnctf_2020_pwn4/attachment/jnctf_2020_pwn4.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "glibc2.23heap"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+    Crypto:
+      - TryLanguageC:
+        - score: 50
+        - flag: 
+          - I love cryptography
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Crypto/TryLanguageC/attachment/cipher.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "Read the C language"
+      - Caesar:
+        - score: 50
+        - flag: jnctf{it's really ez}
+        - attachment: ./Crypto/Caesar/attachments/cipher.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "Normal Ceasar"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - Affine:
+        - score: 100
+        - flag: 
+          - JNCTFAHAPPYDAY
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Crypto/Affine/attachment/cipher.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "Do you know Affine"
+        - hint: "try .zip"
+      - EasyRSA:
+        - score: 150
+        - flag: jnctf{now_you_know_rsa}
+        - attachment: ./Crypto/EasyRSA/attachments/cipher.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "Read RSA"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - solve_equations:
+        - score: 100
+        - flag: 
+          - jnctf{b3st_crypt0}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Crypto/solve_equations/attachment/cipher.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "Best RSA"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL    Misc:
+      - welcome_to_JNCTF2020:
+        - score: 50
+        - flag:
+          - JNCTF{HAcK1ng_wItH_FUn_1n_JNCTF2020}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "Welcome to JNCTF2020! t.me/JNCTF"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - xuanzhiyouxuan:
+        - score: 100
+        - flag:
+          - JNCTF{st3GAn0gRa9h7_1S_AwwwS0mE_In_w0R0}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/xuanzhiyouxuan/attachment/xuanzhiyouxuan.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "不会太为难你吧"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - dadaowuxing:
+        - score: 200
+        - flag:
+          - JNCTF{BaRc00e_For_U}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/dadaowuxing/attachment/one_to_two.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "是套娃吗？"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - secret:
+        - score: 400
+        - flag:
+          - JNCTF{p1cTuR3_AnD_3nCr1pTI0n}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/secret/attachment/secret.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - normal:
+        - score: 500
+        - flag:
+          - JNCTF{AndroId_B1uEt00Th_1s_hhhhRd}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/normal/attachment/normal.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "这个黑客很喜欢用设备名作为密码"
+        - description-en: NULL
+        - origin: NULL
+        - tag: 
+          - Firstblood
+        - hint: NULL
+      - holding_my_pillow:
+        - score: 500
+        - flag:
+          - JNCTF{mUs1C_ls_WAv_m0Re_FUn!}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/holding_my_pillow/attachment/holding_my_pillow.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "Oh...This is hard."
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+    Misc:
+      - welcome_to_JNCTF2020:
+        - score: 50
+        - flag:
+          - JNCTF{HAcK1ng_wItH_FUn_1n_JNCTF2020}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "Welcome to JNCTF2020! t.me/JNCTF"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - xuanzhiyouxuan:
+        - score: 100
+        - flag:
+          - JNCTF{st3GAn0gRa9h7_1S_AwwwS0mE_In_w0R0}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/xuanzhiyouxuan/attachment/xuanzhiyouxuan.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "不会太为难你吧"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - dadaowuxing:
+        - score: 200
+        - flag:
+          - JNCTF{BaRc00e_For_U}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/dadaowuxing/attachment/one_to_two.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "是套娃吗？"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - secret:
+        - score: 400
+        - flag:
+          - JNCTF{p1cTuR3_AnD_3nCr1pTI0n}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/secret/attachment/secret.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - normal:
+        - score: 500
+        - flag:
+          - JNCTF{AndroId_B1uEt00Th_1s_hhhhRd}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/normal/attachment/normal.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "这个黑客很喜欢用设备名作为密码"
+        - description-en: NULL
+        - origin: NULL
+        - tag: 
+          - Firstblood
+        - hint: NULL
+      - holding_my_pillow:
+        - score: 500
+        - flag:
+          - JNCTF{mUs1C_ls_WAv_m0Re_FUn!}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/holding_my_pillow/attachment/holding_my_pillow.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "Oh...This is hard."
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+    Reverse: 
+      - Augustus:
+        - score: 150
+        - flag:
+          - JNCTF{the_author_is_a_beautiful_girl}
+        - attachment: ./Reverse/Augustus/attachments/Augustus.zip
+        - writeup-cn: NULL 
+        - writeup-en: NULL
+        - description-cn: "夸夸出题人你就能拿到flag"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - do_you_know_z3: 
+        - score: 200
+        - flag:
+          - f1ag{We1c0me_t0_JNWA}
+        - attachment: ./Reverse/do_you_know_z3/attachments/do_you_know_z3.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "不会吧，不会吧，不会真的有人不知道z3吧" 
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - helloruby: 
+        - score: 300
+        - flag: 
+          - JNCTF{ruby_is_not_so_boring}
+        - attachment: ./Reverse/helloruby/attachments/helloruby.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "我想了很久都不知道这道题为什么叫helloruby，这跟ruby有个毛线关系，你能帮我找到那个ruby文件吗"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL 
+      - fungame:
+        - score: 400
+        - flag: 
+          - JNCTF{c6fbba5a091edd51febde54e936743e5d}
+        - attachment: ./Reverse/fungame/attachments/fungame.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "分析，就硬分析；解，就硬解"
+        - description-en: NULL
+        - origin: NULL
+        - tag: 
+          - Firstblood
+        - hint: NULL 
+      - boost:
+        - score: 500
+        - flag: 
+          - JNCTF{78@20637#114}
+        - attachment: ./Reverse/boost/attachments/boost.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "boost!good stuff!"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
