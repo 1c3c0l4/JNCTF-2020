@@ -1,7 +1,7 @@
 services:
-  sincc:
+  web-flask:
     build: .
-    image: 34.97.157.26:5000/sincc
+    image: 34.97.157.26:5000/web-flask
     ports: ['80']
     tty: true
 version: '3'
