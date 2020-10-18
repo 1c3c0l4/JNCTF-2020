@@ -1,0 +1,7 @@
+services:
+  miwen_mageic:
+    build: .
+    image: 34.97.157.26:5000/miwen_mageic_magic
+    ports: ['80']
+    tty: true
+version: '3'

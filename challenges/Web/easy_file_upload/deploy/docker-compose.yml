@@ -1,0 +1,7 @@
+services:
+  easy_file_upload:
+    build: .
+    image: 34.97.157.26:5000/easy_file_upload
+    ports: ['80']
+    tty: true
+version: '3'

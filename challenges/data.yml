@@ -1,0 +1,131 @@
+JNCTF-2019:
+    _meta_:
+      - max_score: 500
+      - name: "JNCTF-web"
+    Web:
+      - easy_sandbox_escape:
+        - score: 51
+        - flag:
+          - random
+        - pushflag: ./Web/easy_sandbox_escape/deploy/pushflag.sh
+        - env: ./Web/easy_sandbox_escape/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "hanshangyan"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - easy_file_upload:
+        - score: 52
+        - flag:
+          - random
+        - pushflag: ./Web/easy_file_upload/deploy/pushflag.sh
+        - env: ./Web/easy_file_upload/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - classhack:
+        - score: 53
+        - flag:
+          - random
+        - pushflag: ./Web/classhack/deploy/pushflag.sh
+        - env: ./Web/classhack/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - sincc:
+        - score: 54
+        - flag:
+          - random
+        - pushflag: ./Web/sincc/deploy/pushflag.sh
+        - env: ./Web/sincc/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - sql_2:
+        - score: 55
+        - flag:
+          - random
+        - pushflag: ./Web/sql_2/deploy/pushflag.sh
+        - env: ./Web/sql_2/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - web_flask:
+        - score: 55
+        - flag:
+          - random
+        - pushflag: ./Web/web_flask/deploy/pushflag.sh
+        - env: ./Web/web_flask/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - miwen:
+        - score: 55
+        - flag:
+          - random
+        - pushflag: ./Web/miwen/deploy/pushflag.sh
+        - env: ./Web/miwen/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - easy_php:
+        - score: 55
+        - flag:
+          - random
+        - pushflag: ./Web/easy_php/deploy/pushflag.sh
+        - env: ./Web/easy_php/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - sql_1:
+        - score: 55
+        - flag:
+          - random
+        - pushflag: ./Web/sql_1/deploy/pushflag.sh
+        - env: ./Web/sql_1/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL

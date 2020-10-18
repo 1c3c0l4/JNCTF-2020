@@ -1,0 +1,7 @@
+services:
+  easy_sandbox_escape:
+    build: .
+    image: 34.97.157.26:5000/easy_sandbox_escape
+    ports: ['80']
+    tty: true
+version: '3'
