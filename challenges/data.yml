@@ -194,7 +194,7 @@ JNCTF-2019:
         - pushflag: NULL
         - env: NULL
         - attachment: 
-          - ./Crypto/TryLanguageC/attachment/cipher.zip
+          - ./Crypto/TryLanguageC/attachments/cipher.zip
         - writeup-cn: NULL
         - writeup-en: NULL
         - description-cn: "Read the C language"
@@ -216,7 +216,7 @@ JNCTF-2019:
         - pushflag: NULL
         - env: NULL
         - attachment: 
-          - ./Crypto/Affine/attachment/cipher.zip
+          - ./Crypto/Affine/attachments/cipher.zip
         - writeup-cn: NULL
         - writeup-en: NULL
         - description-cn: "Do you know Affine"
@@ -239,7 +239,7 @@ JNCTF-2019:
         - pushflag: NULL
         - env: NULL
         - attachment: 
-          - ./Crypto/solve_equations/attachment/cipher.zip
+          - ./Crypto/solve_equations/attachments/cipher.zip
         - writeup-cn: NULL
         - writeup-en: NULL
         - description-cn: "Best RSA"
