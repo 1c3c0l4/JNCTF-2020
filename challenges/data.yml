@@ -1,7 +1,7 @@
 JNCTF-2019:
     _meta_:
       - max_score: 500
-      - name: "JNCTF-web"
+      - name: "JNCTF-2020"
     Web:
       - easy_sandbox_escape:
         - score: 51
