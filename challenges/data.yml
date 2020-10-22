@@ -4,7 +4,7 @@ JNCTF-2019:
       - name: "JNCTF-2020"
     Web:
       - easy_sandbox_escape:
-        - score: 51
+        - score: 300
         - flag:
           - random
         - pushflag: ./Web/easy_sandbox_escape/deploy/pushflag.sh
@@ -18,7 +18,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - easy_file_upload:
-        - score: 52
+        - score: 100
         - flag:
           - random
         - pushflag: ./Web/easy_file_upload/deploy/pushflag.sh
@@ -32,7 +32,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - classhack:
-        - score: 53
+        - score: 200
         - flag:
           - random
         - pushflag: ./Web/classhack/deploy/pushflag.sh
@@ -46,7 +46,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - sincc:
-        - score: 54
+        - score: 300
         - flag:
           - random
         - pushflag: ./Web/sincc/deploy/pushflag.sh
@@ -60,7 +60,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - sql_2:
-        - score: 55
+        - score: 100
         - flag:
           - random
         - pushflag: ./Web/sql_2/deploy/pushflag.sh
@@ -74,7 +74,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - web_flask:
-        - score: 55
+        - score: 200
         - flag:
           - random
         - pushflag: ./Web/web_flask/deploy/pushflag.sh
@@ -88,7 +88,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - miwen:
-        - score: 55
+        - score: 100
         - flag:
           - random
         - pushflag: ./Web/miwen/deploy/pushflag.sh
@@ -102,7 +102,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - easy_php:
-        - score: 55
+        - score: 50
         - flag:
           - random
         - pushflag: ./Web/easy_php/deploy/pushflag.sh
@@ -116,7 +116,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - sql_1:
-        - score: 55
+        - score: 50
         - flag:
           - random
         - pushflag: ./Web/sql_1/deploy/pushflag.sh
