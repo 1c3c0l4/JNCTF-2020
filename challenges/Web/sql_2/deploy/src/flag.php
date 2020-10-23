@@ -1,3 +1,3 @@
 <?php 
-$flag="flag{hello easy}";
+$flag="flag{zheshiflag}";
 ?>
