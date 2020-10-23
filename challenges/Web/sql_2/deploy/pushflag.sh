@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -i "s/flag{hello easy}/$1/g" /tmp/sql.sql
+sed -i "s/flag{zheshiflag}/$1/g" /var/www/html
