@@ -49,3 +49,13 @@ def user(name):
 当admin登录成功时，会尝试访问参数u，u是一个IP地址，ban掉了192，172和169开头的地址
 
 在自己的vps上写index.html，内容是``templates/flag.html``，这个位置是except那一段的注释中得出来的
+
+在 vps 上面写文件的时候需要使用 python
+
+```
+with open('index.html','w') as f:
+	f.write('templates/flag.html')
+# 19
+```
+
+如果使用 vim 或者 ``echo 'templates/flag.html' > index.html``会自动产生一个换行符，requests.get 的时候会得到``template/flag.html\n``，导致读取失败
