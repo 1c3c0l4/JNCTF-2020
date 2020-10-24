@@ -386,7 +386,7 @@ JNCTF-2019:
       - boost:
         - score: 500
         - flag: 
-          - JNCTF{78@20637#114}
+          - JNCTF{102@20637#222}
         - attachment: ./Reverse/boost/attachments/boost.zip
         - writeup-cn: NULL
         - writeup-en: NULL

@@ -41,7 +41,7 @@ st boostFn(const std::string& s) {
 
 void boostFunc(unsigned short& num) {
 	//随机数check
-	//预期的num是78
+	//预期的num是102
 	if (num > 111) {
 		_exit(0);
 	}
@@ -51,7 +51,7 @@ void boostFunc(unsigned short& num) {
 	boost::mt19937 rng_(rng);
 	rng_.discard(num / 12);
 	//这里相当于丢弃了num个随机结果
-	if (rng_() != 3570126595) {
+	if (rng_() != 1340652423) {
 		_exit(0);
 	}
 	num -= (rng_() % 45);	// 45
@@ -108,7 +108,7 @@ out:
 	}
 
 	if ((res.num3 % res.num1 != 12) && (res.num3 / res.num1) != 3) {
-		//3 * 34 + 12 == 114
+		//3 * 70 + 12 == 222
 		std::cout << "You failed...again";
 		_exit(0);
 	}
