@@ -115,20 +115,6 @@ JNCTF-2019:
         - origin: NULL
         - tag: NULL
         - hint: NULL
-      - sql_1:
-        - score: 50
-        - flag:
-          - random
-        - pushflag: ./Web/sql_1/deploy/pushflag.sh
-        - env: ./Web/sql_1/deploy/docker-compose.yml
-        - attachment: NULL
-        - writeup-cn: NULL
-        - writeup-en: NULL
-        - description-cn: NULL
-        - description-en: NULL
-        - origin: NULL
-        - tag: NULL
-        - hint: NULL
     Pwn:
       - jnctf_2020_pwn1:
         - score: 300
@@ -365,7 +351,7 @@ JNCTF-2019:
         - attachment: ./Reverse/helloruby/attachments/helloruby.zip
         - writeup-cn: NULL
         - writeup-en: NULL
-        - description-cn: "我想了很久都不知道这道题为什么叫helloruby，这跟ruby有个毛线关系，你能帮我找到那个ruby文件吗"
+        - description-cn: "我想了很久都不知道这道题为什么叫helloruby，这跟ruby有个毛线关系"
         - description-en: NULL
         - origin: NULL
         - tag: NULL
