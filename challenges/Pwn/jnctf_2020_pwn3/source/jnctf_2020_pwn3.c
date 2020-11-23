@@ -5,11 +5,11 @@
 
 char buf[0x140]={0,1};
 long long int flag = 1;
+char buf1[0x18];
 void welcome(){
 	puts("===========================");
-	puts("||   Welcome to JNCTF!   ||");
-	puts("|| There are three games!||");
-	puts("||    only one shoot?!   ||");
+	puts("||   Welcome to jnctf!   ||");
+	puts("||This is a encode system||");
 	puts("||   Have a good time!   ||");
 	puts("===========================");
 }
@@ -20,45 +20,74 @@ void init() {
 }
 void menu(){
 	puts("===========================");
-	puts("||          menu         ||");
-	puts("||         1,game1       ||");
-	puts("||         2,game2       ||");
-	puts("||         3,game3       ||");
+	puts("||         menu          ||");
+	puts("||       1,encode1       ||");
+	puts("||       2,encode2       ||");
+	puts("||       3,encode3       ||");
 	puts("===========================");
 	puts("your choice:");
 }
-
+void encode1(char *keys,char *target,int len1,int len2){
+	int i = 0;
+	char key = 0;
+	for(;i<len1;i++){
+		key ^= keys[i]; 
+	}
+	for(i=0;i<len2;i++){
+		target[i] ^= key;
+	}
+}
+void encode2(char *target,int len){
+	int i =0;
+	for(;i<len;i++){
+		target[i] = ((target[i]&0xc0)>>6) + ((target[i]&0x30)<<2) + ((target[i]&0xc)<<2) +((target[i]&0x3)<<2);
+	}
+}
+void encode3(char *target,int len){
+	int i =0;
+	for(;i<len;i++){
+		target[i] = ((target[i]&0xc0)>>2) + ((target[i]&0x30)>>2) + ((target[i]&0xc)>>2) +((target[i]&0x3)<<6);
+	}
+}
 void function1(){
-	char name[0x20];
-	puts("==========game1==========");
-	puts("your name?");
-	read(0,name,0x20);
-	printf("Your name:%s",name);
-	puts("Leave your message:");
-	read(0, buf,0x150);
+	char keys[0x20];
+	int len1,len2;
+	puts("==========encode1==========");
+	puts("keys?");
+	len1 = read(0,keys,0x20);
+	printf("Your key:%s",keys);
+	puts("your message to encode:");
+	len2 = read(0, buf,0x150);
+	encode1(keys,buf,len1,len2);
+	puts("after encoding...");
 	puts(buf);
-	puts("nice game1...");
+	puts("nice encoding...");
 }
 void function2(){ 
-	char buf1[0x18];
-	puts("==========game2==========");
-	puts("Leave your message:");
-	read(0,buf1,0x18);
+	char a[0x150]; 
+	int len;
+	puts("==========encode2==========");
+	puts("your message to encode:");
+	len = read(0,buf1,0x18);
 	puts("after encoding...");
+	encode2(buf1,len);
 	printf(buf1);
-	puts("nice game2...");
+	puts("nice encoding...");
 }
 int function3(){
 	char temp[0x100];
-	puts("==========game3==========");
-	puts("Leave your message:");
-	read(0, temp, 0x100); 
+	int len;
+	puts("==========encode3==========");
+	puts("your message to encode:");
+	len = read(0, temp, 0x100); 
 	puts("after encoding...");
+	encode3(temp,len);
 	puts(temp);
-	puts("nice game3...");
+	puts("nice encoding...");
 	strcpy( temp,buf );
 	return 0;
 }
+
 
 int main() {
 	init();
@@ -87,3 +116,4 @@ int main() {
 	}
 	return 0;
 }
+
