@@ -1,7 +1,7 @@
 services:
   jnctf_2020_pwn3:
     build: .
-    image: 34.97.157.26:5000/jnctf_2020_pwn3
+    image: 192.168.1.222:5000/jnctf_2020_pwn3
     ports: ['9999']
     restart: unless-stopped
 version: '3'
