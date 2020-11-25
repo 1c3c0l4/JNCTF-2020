@@ -195,7 +195,8 @@ JNCTF-2019:
         - description-cn: "Normal Ceasar"
         - description-en: NULL
         - origin: NULL
-        - tag: NULL
+        - tag: 
+          - Firstblood
         - hint: NULL
       - Affine:
         - score: 100
