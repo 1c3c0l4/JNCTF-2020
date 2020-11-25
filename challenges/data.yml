@@ -4,7 +4,7 @@ JNCTF-2019:
       - name: "JNCTF-2020"
     Web:
       - easy_sandbox_escape:
-        - score: 300
+        - score: 500
         - flag:
           - random
         - pushflag: ./Web/easy_sandbox_escape/deploy/pushflag.sh
@@ -12,7 +12,7 @@ JNCTF-2019:
         - attachment: NULL
         - writeup-cn: NULL
         - writeup-en: NULL
-        - description-cn: "hanshangyan"
+        - description-cn: ""
         - description-en: NULL
         - origin: NULL
         - tag: NULL
@@ -32,7 +32,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - classhack:
-        - score: 200
+        - score: 300
         - flag:
           - random
         - pushflag: ./Web/classhack/deploy/pushflag.sh
@@ -46,7 +46,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - sincc:
-        - score: 300
+        - score: 500
         - flag:
           - random
         - pushflag: ./Web/sincc/deploy/pushflag.sh
@@ -60,7 +60,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - sql_2:
-        - score: 100
+        - score: 200
         - flag:
           - random
         - pushflag: ./Web/sql_2/deploy/pushflag.sh
@@ -75,7 +75,7 @@ JNCTF-2019:
           - Firstblood
         - hint: NULL
       - web_flask:
-        - score: 200
+        - score: 300
         - flag:
           - random
         - pushflag: ./Web/web_flask/deploy/pushflag.sh
@@ -103,7 +103,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - easy_php:
-        - score: 50
+        - score: 100
         - flag:
           - random
         - pushflag: ./Web/easy_php/deploy/pushflag.sh
@@ -118,7 +118,7 @@ JNCTF-2019:
         - hint: NULL
     Pwn:
       - jnctf_2020_pwn1:
-        - score: 300
+        - score: 200
         - flag:
           - random
         - pushflag: ./Pwn/jnctf_2020_pwn1/deploy/pushflag.sh
@@ -132,7 +132,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - jnctf_2020_pwn2:
-        - score: 500
+        - score: 300
         - flag:
           - random
         - pushflag: ./Pwn/jnctf_2020_pwn2/deploy/pushflag.sh
@@ -141,7 +141,7 @@ JNCTF-2019:
         - writeup-cn: NULL
         - writeup-en: NULL
         - description-cn: NULL
-        - description-en: "stack migration 32bit"
+        - description-en: ""
         - origin: NULL
         - tag: 
           - Firstblood
@@ -161,7 +161,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - jnctf_2020_pwn4:
-        - score: 500
+        - score: 400
         - flag:
           - random
         - pushflag: ./Pwn/jnctf_2020_pwn4/deploy/pushflag.sh
@@ -176,7 +176,7 @@ JNCTF-2019:
         - hint: NULL
     Crypto:
       - TryLanguageC:
-        - score: 50
+        - score: 100
         - flag: 
           - I love cryptography
         - pushflag: NULL
@@ -187,7 +187,7 @@ JNCTF-2019:
         - writeup-en: NULL
         - description-cn: "Read the C language"
       - Caesar:
-        - score: 50
+        - score: 150
         - flag: jnctf{it's really ez}
         - attachment: ./Crypto/Caesar/attachments/cipher.zip
         - writeup-cn: NULL
@@ -198,7 +198,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - Affine:
-        - score: 100
+        - score: 150
         - flag: 
           - JNCTFAHAPPYDAY
         - pushflag: NULL
@@ -210,7 +210,7 @@ JNCTF-2019:
         - description-cn: "Do you know Affine"
         - hint: "try .zip"
       - EasyRSA:
-        - score: 150
+        - score: 300
         - flag: jnctf{now_you_know_rsa}
         - attachment: ./Crypto/EasyRSA/attachments/cipher.zip
         - writeup-cn: NULL
@@ -222,7 +222,7 @@ JNCTF-2019:
           - Firstblood
         - hint: NULL
       - solve_equations:
-        - score: 100
+        - score: 500
         - flag: 
           - jnctf{b3st_crypt0}
         - pushflag: NULL
@@ -238,7 +238,7 @@ JNCTF-2019:
         - hint: NULL    
     Misc:
       - welcome_to_JNCTF2020:
-        - score: 50
+        - score: 100
         - flag:
           - JNCTF{HAcK1ng_wItH_FUn_1n_JNCTF2020}
         - pushflag: NULL
@@ -252,7 +252,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - xuanzhiyouxuan:
-        - score: 100
+        - score: 150
         - flag:
           - JNCTF{st3GAn0gRa9h7_1S_AwwwS0mE_In_w0R0}
         - pushflag: NULL
@@ -294,7 +294,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - normal:
-        - score: 500
+        - score: 400
         - flag:
           - JNCTF{AndroId_B1uEt00Th_1s_hhhhRd}
         - pushflag: NULL
@@ -324,7 +324,7 @@ JNCTF-2019:
         - hint: NULL
     Reverse: 
       - Augustus:
-        - score: 150
+        - score: 200
         - flag:
           - JNCTF{the_author_is_a_beautiful_girl}
         - attachment: ./Reverse/Augustus/attachments/Augustus.zip
@@ -336,7 +336,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL
       - do_you_know_z3: 
-        - score: 200
+        - score: 150
         - flag:
           - f1ag{We1c0me_t0_JNWA}
         - attachment: ./Reverse/do_you_know_z3/attachments/do_you_know_z3.zip
@@ -360,7 +360,7 @@ JNCTF-2019:
         - tag: NULL
         - hint: NULL 
       - fungame:
-        - score: 400
+        - score: 350
         - flag: 
           - JNCTF{c6fbba5a091edd51febde54e936743e5d}
         - attachment: ./Reverse/fungame/attachments/fungame.zip
