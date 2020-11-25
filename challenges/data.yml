@@ -195,8 +195,7 @@ JNCTF-2019:
         - description-cn: "Normal Ceasar"
         - description-en: NULL
         - origin: NULL
-        - tag: 
-          - Firstblood
+        - tag: NULL
         - hint: NULL
       - Affine:
         - score: 100
@@ -219,7 +218,8 @@ JNCTF-2019:
         - description-cn: "Read RSA"
         - description-en: NULL
         - origin: NULL
-        - tag: NULL
+        - tag: 
+          - Firstblood
         - hint: NULL
       - solve_equations:
         - score: 100
