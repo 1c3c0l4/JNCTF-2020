@@ -142,7 +142,8 @@ JNCTF-2019:
         - description-cn: NULL
         - description-en: "stack migration 32bit"
         - origin: NULL
-        - tag: NULL
+        - tag: 
+          - Firstblood
         - hint: NULL
       - jnctf_2020_pwn3:
         - score: 500
