@@ -369,14 +369,14 @@ JNCTF-2019:
         - tag: 
           - Firstblood
         - hint: NULL 
-      - boost:
+      - easyVM:
         - score: 500
         - flag: 
-          - JNCTF{102@20637#222}
-        - attachment: ./Reverse/boost/attachments/boost.zip
+          - JNCTF{7h3n_f4r3_u_w3ll_5w337_cr4g13_HILL_wh3r3_0ft3n_71m35_1_v3_r0v3d}
+        - attachment: ./Reverse/easyVM/attachments/easyVM.zip
         - writeup-cn: NULL
         - writeup-en: NULL
-        - description-cn: "boost!good stuff!"
+        - description-cn: ""
         - description-en: NULL
         - origin: NULL
         - tag: NULL
