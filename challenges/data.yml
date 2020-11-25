@@ -71,7 +71,8 @@ JNCTF-2019:
         - description-cn: NULL
         - description-en: NULL
         - origin: NULL
-        - tag: NULL
+        - tag: 
+          - Firstblood
         - hint: NULL
       - web_flask:
         - score: 200
