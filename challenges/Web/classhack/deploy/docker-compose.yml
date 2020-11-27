@@ -1,7 +1,7 @@
 services:
   classhack:
     build: .
-    image: 34.97.157.26:5000/classhack
+    image: 172.18.146.247:5000/classhack
     ports: ['80']
     tty: true
 version: '3'

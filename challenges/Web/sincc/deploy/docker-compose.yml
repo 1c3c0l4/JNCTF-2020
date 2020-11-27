@@ -1,7 +1,7 @@
 services:
   sincc:
     build: .
-    image: 34.97.157.26:5000/sincc
+    image: 172.18.146.247:5000/sincc
     ports: ['80']
     tty: true
 version: '3'
